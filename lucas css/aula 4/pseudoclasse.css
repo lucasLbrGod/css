@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(rgb(246, 246, 247), rgb(29, 216, 200));
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     font-size: 20px;
+     text-align: justify;
+
+}
+a:visited{
+    color: blueviolet;
+}
+.ativo:active{
+    color: green;
+}   
+#nome:focus{
+    font-size: 25px;
+    color: rgb(15, 203, 228);
+    background-color: black;
+    border-radius: 50px;
+}
+
+#contato:focus{
+    font-size: 25px;
+    color: rgb(15, 203, 228);
+    background-color: black;
+    border-radius: 50px;
+}
+
+h1:hover{
+    text-align: center;
+    color: rgb(8, 8, 255);
+}

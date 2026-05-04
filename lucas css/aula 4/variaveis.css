@@ -1,0 +1,35 @@
+:root{
+
+    /* cor padra da pag */
+ --cor-fundo: #000000;
+ --cor-titulo: #0e402d;
+ --cor-texto: #9FCC2E;
+
+ /* fonte do texto */
+ --titulo: arial, sans-serif;
+ --texto-padrao: helvetica;
+
+ /* tamanho da fonte */
+ --titulo-primario: 40px;
+ --sub-titulo: 26px;
+--corpo-testo: 20px;
+}
+body{
+    background-color: var(--cor-fundo);
+}
+h1{
+    color: var(--cor-titulo);
+    font-size: var(--titulo-primario);
+    font-family: var(--titulo);
+}
+h2{ color: var(--cor-titulo);
+font-size: var(--titulo-primario);
+font-family: var(--sub-titulo);
+}
+p{
+    color: var(--cor-texto);
+    font-family: var(--texto-padrao)
+    
+}
+
+

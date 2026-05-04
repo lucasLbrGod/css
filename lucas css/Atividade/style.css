@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+    }
+h1{
+    text-shadow: 5px 10px 5px;
+    text-align: center;
+    line-height: 5;
+   font-family: "Bitcount Grid Double", system-ui;
+}
+p{
+font-style: italic;
+text-align: justify;
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+   
+   
+}
+
+div{ background-color: azure;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+
+    padding-top: 20;
+    margin-top: 100px;
+    margin-right: 150px;
+   
+}

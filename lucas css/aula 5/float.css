@@ -1,0 +1,11 @@
+main{
+    border-radius:10px ;
+    padding: 10px;
+    width: 800px;
+    overflow: auto;
+    border: 10px black;
+    box-sizing: border-box;
+    text-align: justify;
+    background-image: linear-gradient(rgb(194, 41, 214), rgb(90, 6, 90));
+    
+}

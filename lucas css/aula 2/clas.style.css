@@ -1,0 +1,19 @@
+*{  background-color: darkgray;
+ font-size:x-large;
+ margin: 0;
+ padding: 0;
+}
+
+.cor_texto{
+    color: rgb(252, 0, 239);
+}
+.cor_paragrafo{
+    color: cornflowerblue;
+}
+.tamanho_font{
+    font-size: 20px;
+}
+#Titulo{
+    color: brown;
+    text-align: center;
+}

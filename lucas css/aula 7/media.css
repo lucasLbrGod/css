@@ -1,0 +1,50 @@
+body{
+    background-color: bisque;
+}
+
+
+@media screen and (max-width:400px) {
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width:600px) {
+    h2{
+        color: blue;
+        text-align: center;
+    }
+}
+    
+@media print and (max-width:1000px) {
+    
+h3{
+    color: red;
+    text-align: center;
+}
+}
+@media (max-width:600px) {
+    h4{
+        color: green;
+        background-color:red ;
+        text-align: center;
+}
+
+}
+
+@media (min-width:650px) and (max-width:750px) {
+H5{
+    font-size: larger;
+    color: aqua;
+}
+}
+
+@media (orientation: landscape) {
+    h6{
+        color: aqua;
+        text-align: center
+
+    }
+}

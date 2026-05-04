@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(rgb(189, 10, 10), rgb(24, 24, 238));
+    
+}
+
+
+@media (min-width:481px) and (max-width:768px) {
+H1{
+    font-size: 30px;
+    color: rgb(251, 252, 252);
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+}
+
+
+
+    
+
+

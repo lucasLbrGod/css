@@ -1,0 +1,15 @@
+      body{
+            text-align: center;
+            
+
+        }
+        a{
+         text-align: center;
+         color: rgb(0, 0, 0);
+         font-size: 50px;
+        border-radius: 10px;
+        background-image: linear-gradient(rgb(23, 84, 252), rgb(235, 21, 146));
+        padding: 10px;
+        text-decoration: none;
+    }
+      
