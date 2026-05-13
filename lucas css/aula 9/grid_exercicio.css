@@ -1,0 +1,64 @@
+.container{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(59, 9, 59);
+    font-size: 25px;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(6, 1fr );
+    grid-template-rows:repeat(6,1fr); 
+    grid-template-areas:
+ 'header header header header header header'
+    'main main main main anun anun'
+    'main main main main anun anun'
+    'mai mai prop prop prop prop'
+    'mai mai prop prop prop prop'
+    'footer footer footer footer footer footer'
+    ; 
+}
+.c1{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    grid-area: header;
+
+}
+
+.c2{
+    color: rgb(34, 34, 34);
+    padding: 10px;
+    background-color: rgb(29, 202, 245);
+    grid-area: main;
+}
+
+.c3{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(255, 73, 216);
+    grid-area:anun
+}
+
+.c4{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: blueviolet;
+    grid-area: mai;
+    
+}
+
+.c5{
+      color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(12, 206, 77);
+    grid-area: prop;
+
+
+}
+.c6{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    grid-area: footer;
+    background-color: rgb(255, 251, 39);
+    
+}

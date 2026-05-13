@@ -1,0 +1,47 @@
+.container{
+    height: 100vh;
+    background-color: rgb(182, 182, 182);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 25px;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    justify-items: start;
+    
+
+}
+
+.c1{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(55, 0, 255);
+  
+    
+
+}
+
+.c2{
+    color: rgb(34, 34, 34);
+    padding: 10px;
+    background-color: rgb(77, 226, 18);
+  
+   
+}
+
+.c3{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(231, 17, 17);
+    
+    
+}
+
+.c4{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(138, 32, 236);
+   
+    
+    
+}
